@@ -1,0 +1,27 @@
+@model IEnumerable<ClinicaPsicologica.Models.Paciente>
+
+<h2>Meus Pacientes</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Sexo</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var paciente in Model)
+        {
+            <tr>
+                <td>@paciente.Nome</td>
+                <td>@paciente.Idade</td>
+                <td>@paciente.Sexo</td>
+                <td>@paciente.Email</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="/Paciente/Cadastrar">Cadastrar Novo Paciente</a>

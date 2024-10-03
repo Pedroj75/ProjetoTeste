@@ -1,0 +1,61 @@
+.titulo-clinica {
+    margin-left: 20px;
+    /* Ajuste o valor conforme necessário */
+    margin-right: 20px;
+    /* Adiciona espaço à direita também, se desejar */
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo do formulário */
+form {
+    background-color: #ffffff;
+    border: 2px solid #cccccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    /* Adiciona espaço no topo do formulário */
+}
+
+/* Estilo dos campos do formulário */
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    /* Espaço entre os campos */
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+/* Estilo do botão */
+button {
+    background-color: #4CAF50;
+    /* Cor do botão */
+    color: white;
+    /* Cor do texto do botão */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Estilo do título */
+h1 {
+    margin-top: 20px;
+    /* Adiciona 20px de espaço acima do título */
+    text-align: center;
+    /* Centraliza o texto */
+}

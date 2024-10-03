@@ -1,0 +1,66 @@
+/* Define o retângulo e sua posição */
+.form-container {
+  border: 2px solid #ccc;
+  /* Borda para formar o retângulo */
+  padding: 20px;
+  width: 400px;
+  /* Largura do retângulo */
+  margin-top: 20px;
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  /* Posiciona no canto superior esquerdo */
+  background-color: #f9f9f9;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Alinha os campos em linha */
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+/* Estiliza os campos */
+label {
+  width: 80px;
+  /* Largura fixa para os rótulos */
+}
+
+input {
+  flex: 1;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Ajusta o espaço entre a marca e os links */
+.navbar-brand {
+  margin-right: 15px;
+  /* Adiciona espaço entre a marca e os links */
+}
+
+/* Ajusta o espaço entre as letras, se necessário */
+.navbar-brand {
+  letter-spacing: 0;
+  /* Remove o espaçamento entre letras */
+}
+
+.navbar-nav .nav-item {
+  margin-left: 15px;
+  /* Adiciona espaço entre os itens do navbar */
+}
